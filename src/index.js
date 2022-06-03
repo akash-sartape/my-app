@@ -3,11 +3,16 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Title from './components/button/button';
+import { Button,AddSub } from './components/button/button';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+   <Title></Title>
+   <Button />
+   <AddSub />
   </React.StrictMode>
 );
 

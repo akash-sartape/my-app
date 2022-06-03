@@ -1,0 +1,32 @@
+.color_normal{
+    color: #77c7ef;
+}
+.color_danger{
+    color: red;
+}
+.button1{
+    margin: 10px;
+    -webkit-box-shadow: 14px 10px 5px -8px rgba(0,0,0,0.75);
+-moz-box-shadow: 14px 10px 5px -8px rgba(0,0,0,0.75);
+box-shadow: 14px 10px 5px -8px rgba(0,0,0,0.75);
+border-radius: 10%;
+border-color: aquamarine;
+}
+.AddSub{
+    margin-top: 10px;
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.Add ,.sub{
+    margin: 10px;
+    -webkit-box-shadow: 14px 10px 5px -8px rgba(0,0,0,0.75);
+-moz-box-shadow: 14px 10px 5px -8px rgba(0,0,0,0.75);
+box-shadow: 14px 10px 5px -8px rgba(0,0,0,0.75);
+border-radius: 10%;
+border-color: rgb(183, 182, 120);
+}
+.answer{
+    margin:5px;
+}
