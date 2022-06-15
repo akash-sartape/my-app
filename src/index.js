@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Title from './components/button/button';
 import { Button,AddSub } from './components/button/button';
+import FormCreate from './components/Form';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -13,6 +14,7 @@ root.render(
    <Title></Title>
    <Button />
    <AddSub />
+   <FormCreate/>
   </React.StrictMode>
 );
 
